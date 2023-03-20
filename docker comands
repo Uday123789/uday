@@ -46,6 +46,7 @@ docker volume create test-volume
 docker volume ls
 docker volume inspect test-volume
 docker volume purne
+docker volume rm volumename
 docker logs ContainerID
 
 docker run --name jenkins -p 8080:8080 -p 50000:50000 -v test-volume:/var/jenkins_home jenkins/jenkins
