@@ -14,7 +14,15 @@ sudo su - jenkins
 6) gcloud init
 7) sudo apt-get update && sudo apt-get install google-cloud-cli=123.0.0-0
 8) sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
-9) https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
+
+9) GOOGLE search:- https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
+
+10)sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
+
+11)Verify installation:- 
+   gke-gcloud-auth-plugin --version
+   gke-gcloud-auth-plugin.exe --version
+   
 
 TO authenticate GCR please follow the below document 
 ------------------------------------------------------
